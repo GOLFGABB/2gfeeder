@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
@@ -27,14 +27,14 @@
     "firebase": "^5.3.1",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26",
-    "@angular/compiler-cli": "^6.0.3",
-    "@angular/cli": "~6.0.8",
-    "typescript": "~2.7.2"
+    "typescript": "~2.7.2",
+    "@angular/cli": "^6.1.2",
+    "@angular/compiler-cli": "^6.1.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.6.8",
-    "@angular/cli": "~6.0.8",
-    "@angular/compiler-cli": "^6.0.3",
+    "@angular/cli": "^6.1.2",
+    "@angular/compiler-cli": "^6.1.2",
     "@angular/language-service": "^6.0.3",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
@@ -54,7 +54,7 @@
     "typescript": "~2.7.2"
   },
   "engines": {
-    "node": "8.9.3",
-    "npm": "5.6.0"
+    "node": "8.11.1",
+    "npm": "6.2.0"
   }
 }
