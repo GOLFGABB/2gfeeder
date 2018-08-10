@@ -1,8 +1,20 @@
+<script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+<script>
+liff.init(
+  data => {
+    // Now you can call LIFF API
+    const userId = data.context.userId;
+  },
+  err => {
+    // LIFF initialization failed
+  }
+);
+</script>
 <div style="border-color:pink; border-width:20px;">
 
       <div class="col-xs-12" style="margin-top:30px;">
           <img src="https://firebasestorage.googleapis.com/v0/b/gfeeder-c8cf8.appspot.com/o/2GFeeder_LINE.png?alt=media&token=7a7dfc59-a327-4669-83cc-51d9c671163b" alt="logo" style="width:200px;height:200px;margin-left: 100px;border-radius:200px;">
-          <h1 style="margin-left: 120px; margin-bottom: 30px; color:#60ce42; ">2GFeeder</h1>
+          <h1 style="margin-left: 120px; margin-bottom: 30px; color:#60ce42; font-family: Roboto;">2GFeeder</h1>
         <form (ngSubmit)="addForm(Form)" #Form="ngForm">
           <div class="col-xs-10">
             <div class="col-sm-5 form-group">
